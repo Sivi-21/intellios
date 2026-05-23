@@ -2,20 +2,16 @@
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
-import React from 'react';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import { AppProvider } from './context/AppContext';
-import { MainLayout } from './layouts/MainLayout';
-import { Dashboard } from './pages/Dashboard';
-import { AIChat } from './pages/AIChat';
-import { Notes } from './pages/Notes';
-import { Tasks } from './pages/Tasks';
-import { Settings } from './pages/Settings';
-
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { AppProvider } from "./context/AppContext";
+import { MainLayout } from "./layouts/MainLayout";
+import { Dashboard } from "./pages/Dashboard";
+import { AIChat } from "./pages/AIChat";
+import { Notes } from "./pages/Notes";
+import { Tasks } from "./pages/Tasks";
+import { Settings } from "./pages/Settings";
 export default function App() {
-  return (
-    <AppProvider>
+  return <AppProvider>
       <Router>
         <Routes>
           <Route path="/" element={<MainLayout />}>
@@ -24,11 +20,12 @@ export default function App() {
             <Route path="notes" element={<Notes />} />
             <Route path="tasks" element={<Tasks />} />
             <Route path="settings" element={<Settings />} />
-            {/* Catch-all route to fallback to dashboard */}
+            {
+    /* Catch-all route to fallback to dashboard */
+  }
             <Route path="*" element={<Dashboard />} />
           </Route>
         </Routes>
       </Router>
-    </AppProvider>
-  );
+    </AppProvider>;
 }
