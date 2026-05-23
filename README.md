@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
 <img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
 </div>
@@ -20,3 +21,8 @@ View your app in AI Studio: https://ai.studio/apps/5cbc7ff1-424b-4f0d-a2c9-e63ba
 4. Open http://localhost:3000
 
 See [server/README.md](server/README.md) for API docs and architecture.
+=======
+# intellios
+
+IntelliOS is a full-stack AI-powered assistant platform built using React, Vite, Node.js, Express, WebSockets, and MongoDB. The project features real-time communication, AI integration, session handling, and modular backend architecture for intelligent interactions.
+>>>>>>> 9f879e8c7dbe5462bb6a131847c1364f221a742f
