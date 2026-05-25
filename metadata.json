@@ -1,0 +1,6 @@
+{
+  "name": "IntelliOS",
+  "description": "Futuristic AI-powered workspace and operating system for students and developers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
